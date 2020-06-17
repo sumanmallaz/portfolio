@@ -1,0 +1,50 @@
+body {
+  font-family: inherit;
+}
+
+header {
+  background-color: ivory;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+
+nav {
+ flex: 1;
+  flex: 1;
+  background:grey;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+ flex:5;
+  background-color:gainsboro;
+  padding: 10px;
+    font-size: 17px;
+}
+section{
+    color: bisque;
+}
+h1{
+    font-family: inherit;
+    font-size: 50px;
+}
+
+footer {
+background-color: ivory;
+    text-align: center;
+    font-display: optional;
+    font-size: 25px;
+    padding: 10px;
+  }
+}

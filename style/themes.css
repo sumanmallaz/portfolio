@@ -213,5 +213,14 @@ and (min-device-width : 768px)
         top: -3vw;
              left: -5vw;
     }
+        @media only screen and (min-width: 900px) {
+            body{
+                display:grid;
+                grid-template-columns: 1fr 1fr ;
+                grid-template-areas: "b1 b1 b2 b2"
+                                    "b3 b3 b4 b4"
+                                    "b5 b5"
+            }
+        }
 
 

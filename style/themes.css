@@ -84,6 +84,7 @@ main {
     height: 25vw;
     width: 40vw;
     margin-top: 25vw;
+    justify-content: center;
 
 }
 
@@ -112,6 +113,7 @@ main {
     grid-area: b3;
     height: 25vw;
      width: 40vw;
+    justify-content: center;
 
 }
 .box4 {
@@ -177,4 +179,28 @@ h5 a {
 
 .box5:hover {
     transform: scale(1.2);
+}
+
+.button {
+  border: none;
+    text-decoration-color: lightskyblue;
+  color: lightskyblue;
+    font-family: monopause;
+  padding: 8px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: px;
+  margin: 6px 2px;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: lightskyblue;
+  color: lightskyblue;
+}
+
+.button1:hover {
+  color: white;
 }

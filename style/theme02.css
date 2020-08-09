@@ -87,6 +87,7 @@ main {
 }
 
 
+
 h3 a {
     color: skyblue;
 }
@@ -108,3 +109,12 @@ h3 a {
 .iconic img:hover {
     transform: scale(1.5);
 }
+@media only screen
+and (min-device-width : 768px)
+    and (max-device-width : 1024px){
+         /*.box1{
+        position: absolute;
+        width: 78vw;
+        top: -3vw;
+             left: -5vw;
+    }*/

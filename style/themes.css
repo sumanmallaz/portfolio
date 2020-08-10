@@ -135,6 +135,7 @@ main {
 
 .box1 a, .box2 a, .box3 a, .box4 a, .box5 a{
     text-decoration: none;
+    color: skyblue;
 }
 
 .box5 {

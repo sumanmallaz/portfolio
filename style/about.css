@@ -75,39 +75,38 @@ main {
 }
 
     .box1 {
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: center;
     font-family: monospace;
      color: skyblue;
     border: 1px solid skyblue;
     margin: 4px;
     grid-area: b1;
-    height: 18vw;
+    height: auto;
 
 
 }
 
 .box2 {
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: center;
     font-family: monospace;
      color: skyblue;
     border: 1px solid skyblue;
     margin: 4px;
     grid-area: b2;
-    height: 14vw;
 
 }
 
-.box3 {
-    font-size: 20px;
+#box3 {
+    font-size: 1.5em;
     text-align: center;
     font-family: monospace;
      color: skyblue;
     border: 1px solid skyblue;
     margin: 4px;
     grid-area: b3;
-    height: 14vw;
+
 
 }
 .icon {
@@ -116,7 +115,6 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
-    animation: fall 2s linear forwards;
 }
 .iconic img {
     height: 5vw;
